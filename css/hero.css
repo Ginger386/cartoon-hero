@@ -1,6 +1,7 @@
 html, body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  background-color: #bfbffd80;
 }
 
 header{
@@ -12,12 +13,14 @@ header{
 h1{
   font-size: 90px;
   color: white;
+  text-shadow: 0 4px 20px black;
 }
 
 header img{
   border-radius: 150px;
   width: 300px;
   border: 10px solid #CC0000;
+  box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -36,10 +39,19 @@ p.caption{
   font-style: italic;
 }
 
-ul{
+ol, ul{
   list-style: none;
+  text-align: center;
   padding: 0;
-  margin: 0;
+  margin: 20px auto 40px;
+  max-width: 600px;
+}
+
+li{
+  background-color: #6f6fe0;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 a{
@@ -47,10 +59,14 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  background-color: #ffffff;
+}
+
 footer{
   margin-top: 20px;
   padding: 40px 20px;
-  background-color: #E6E6E6;
+  background-color: #dbdbdb;
 }
 
 footer ul{
@@ -58,6 +74,7 @@ footer ul{
 }
 
 footer ul li{
+  background-color: #dbdbdb;
   display: inline-block;
   margin: 0 5px;
 }
