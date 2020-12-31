@@ -1,7 +1,8 @@
+/*******TAG SELECTORS*******/
 html, body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: #bfbffd80;
+  background-color: #0101ff28;
 }
 
 header{
@@ -21,12 +22,6 @@ header img{
   width: 300px;
   border: 10px solid #CC0000;
   box-shadow: 0 10px 20px black;
-}
-
-.content{
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 img.big-image{
@@ -77,4 +72,11 @@ footer ul li{
   background-color: #dbdbdb;
   display: inline-block;
   margin: 0 5px;
+}
+
+/*******CLASS SELECTORS*******/
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
